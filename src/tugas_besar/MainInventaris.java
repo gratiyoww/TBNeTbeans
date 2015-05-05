@@ -1,22 +1,35 @@
 package tugas_besar;
 
-import java.util.Scanner;
 
 public class MainInventaris {
 
     public static void main(String[] args) {
         ProsesInventaris ambil = new ProsesInventaris();
-        ControlInventaris ambil2 = new ControlInventaris();
-        String nama, lokasi, fakultas;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan nama ruang : ");
-        nama = input.nextLine();
-        System.out.println("Masukkan lokasi ruang : ");
-        lokasi = input.nextLine();
-        System.out.println("Masukkan fakultas : ");
-        fakultas = input.nextLine();
+        ambil.input();
+        ambil.tampil();
         ambil.hitung_luas_ruang();
         ambil.hitung_bentuk_ruang();
-        //System.out.println("Masukkan jml kursi : ");
+        ambil.hitung_rasio_luas();
+        ambil.analisis_pintu_dan_jendela();
+        ambil.analisis_LCD();
+        ambil.analisis_lampu();
+        ambil.analisiskipasangin();
+        ambil.analisisAC();
+        ambil.analisisinternet();
+        ambil.analisisCCTV();
+        ambil.analisiskebersihan();
+        ambil.analisissirkulasiudara();
+        ambil.analisispencahayaan();
+        ambil.analisiskelembapan();
+        ambil.analisis_Suhu();
+        ambil.analisisbising();
+        ambil.analisisbau();
+        ambil.analisisrusak();
+        ambil.analisisaus();
+        ambil.analisiskokoh();
+        ambil.analisis_pintu_dan_jendela();
+        ambil.analisisaman();
+//        ambil.listinputan();; 
+        
     }
 }
