@@ -464,7 +464,15 @@ public abstract class Identitas_Ruang_Kelas {
         this.suhu = suhu;
     }
     
-    abstract void input_data();
-    abstract void tampil_data(); 
-    abstract void hitung_data();
+    public void input_data(){
+        
+    }
+    public void tampil_data(){
+        
+    } 
+    public void hitung_data(){
+        
+    }
+    
+    
 }
