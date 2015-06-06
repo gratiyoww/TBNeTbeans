@@ -23,6 +23,7 @@ public class IO extends identitas implements myinterface {
     public IO(){
         aplikasi_inventaris.konekkeDatabase();
     }
+    
 
     @Override
     public void input_identitas() {
