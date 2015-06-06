@@ -565,3 +565,4 @@ public class control implements Serializable {
         this.suhu = suhu;
     }
 }
+
