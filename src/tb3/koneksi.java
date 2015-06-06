@@ -14,3 +14,4 @@ public class koneksi {
         config.makeConnect();
     }
 }
+
